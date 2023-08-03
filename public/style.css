@@ -1,0 +1,16 @@
+#heading {
+    background-color: yellow;
+}
+
+#viewArea {
+    background-color: lightgrey;
+}
+
+.pill {
+    background-color: yellow;
+}
+
+#taskText {
+    text-align: justify;
+    text-justify: inter-word;
+}
