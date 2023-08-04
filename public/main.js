@@ -30,7 +30,7 @@ function getTasks() {
 				taskid = data[data.length - 1].taskId + 1;
 			}
 			for (let i = 0; i < data.length; i++) {
-				addPillToParent(data[i].taskId, data[i].taskName,data[i].image, data[i].taskStatus);
+				addPillToParent(data[i]._id, data[i].name,data[i].image, data[i].taskStatus);
 			}
 		}
 	};
